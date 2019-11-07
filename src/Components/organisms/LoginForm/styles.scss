@@ -1,0 +1,51 @@
+// #components-form-demo-normal-login .login-form {
+//   max-width: 300px;
+// }
+// #components-form-demo-normal-login .login-form-forgot {
+//   float: right;
+// }
+// #components-form-demo-normal-login .login-form-button {
+//   width: 100%;
+// }
+
+  .warning-login-username{
+    font-family: "Roboto";
+    font-weight:300;
+    line-height:16px;
+    color:#fff;
+    position:absolute;
+    display:inline;
+    top:calc(0% - 50px);
+    width:374px;
+    opacity:0;
+  }
+.login-part{
+  display: flex;
+  .login-part-option{
+    width: 55%;
+    display:flex;
+    flex-direction:column;
+  }
+  .login-form-forgot{
+      color:#fff;
+  }
+}
+.login-checkbox{
+  color:#fff;
+  font-weight:500;
+  font-size:12px;
+  .ant-checkbox-inner{
+      background:transparent;
+      width:20px;
+      height:20px;
+      border-radius:4px;
+      border:1 px solid #fff;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner{
+    background:#1890ff;
+    border:1px solid #1890ff;
+  }
+}
+#login-small-button{
+  width:47%;
+}

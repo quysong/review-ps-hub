@@ -1,0 +1,17 @@
+.page-login {
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    position:relative;
+    .wrapper-img{
+      transform: translateX(-21px)!important;
+      width:466px;
+      height:auto;
+      margin-bottom:42px;
+      img{
+        max-width:100%;
+      }
+    }
+  }

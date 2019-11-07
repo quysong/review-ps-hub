@@ -1,0 +1,37 @@
+@import "available.scss";
+.login-box{
+  flex-direction:column;
+  width:323px;
+  height:auto;
+  position:relative;
+}
+.auth-input {
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    width: 100%;
+    border-radius:5px;
+}
+.has-error .ant-input{
+  border:2px solid red;
+}
+.ant-input::placeholder{
+    color:$input-text-color ;
+    font-size:$body-font;
+    line-height:16px;
+}
+.login-form-button {
+    width: 212px;
+    height: 48px;
+    background: $button-login-color;
+    color: $input-text-color;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    border:none;
+    @media(max-width:767px){
+      margin:0 auto;
+    }
+}

@@ -1,0 +1,28 @@
+.page-login {
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  position:relative;
+  .wrapper-img{
+    transform: translateX(-21px)!important;
+    width:466px;
+    height:auto;
+    img{
+      max-width:100%;
+    }
+  }
+}
+
+.confirm-password {
+  .wrapper-content {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    max-width: 323px;
+    p {
+      color: #Fff;
+    }
+  }
+}
